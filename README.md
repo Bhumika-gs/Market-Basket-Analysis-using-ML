@@ -6,6 +6,9 @@ This project analyzes customer purchasing patterns using Market Basket Analysis 
 
 The project uses the Apriori algorithm to identify products that are frequently purchased together and generates product recommendations based on association rules.
 
+## 📌 Deployed Website
+https://market-basket-analysis-using-ml-6au47xnipxsgvohfvnaoaz.streamlit.app/
+
 ## 🎯 Objectives
 
 - Analyze customer purchasing behavior
