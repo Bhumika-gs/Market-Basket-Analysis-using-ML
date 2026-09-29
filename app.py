@@ -18,20 +18,16 @@ st.set_page_config(
 # File Path
 # --------------------------------------------------
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 RULES_PATH = BASE_DIR / "data" / "association_rules.csv"
 
 
 # --------------------------------------------------
 # Load Rules
 # --------------------------------------------------
-
 @st.cache_data
 def load_rules():
-    return pd.read_csv(
-        r"C:\Users\Bhumika gs\ML Projects\Market Basket Analysis\data\association_rules.csv"
-    )
-
+    return pd.read_csv(RULES_PATH)
 
 rules = load_rules()
 
